@@ -1,0 +1,18 @@
+<package>
+  <description brief="grasp_common">
+
+     grasp_common
+
+  </description>
+  <author>hao</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/grasp_common</url>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+ <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lgraspit_msgs"/>
+  </export>
+</package>
+
+

@@ -1,2 +1,3 @@
 string object_name
+string model_name
 geometry_msgs/Pose object_pose

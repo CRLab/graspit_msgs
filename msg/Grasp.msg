@@ -1,3 +1,4 @@
+string object_name
 float64 epsilon_quality
 float64 volume_quality
 float64[] secondary_qualities

@@ -44,7 +44,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
    FILES
    Grasp.msg
    GraspStatus.msg
-   #ObjectInfo.msg
+   ObjectInfo.msg
    SceneInfo.msg
  )
 
@@ -52,7 +52,6 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
  add_service_files(
    FILES
    GetObjectInfo.srv
-   ObjectInfo.srv
  )
 
 ## Generate actions in the 'action' folder

@@ -52,6 +52,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
  add_service_files(
    FILES
    GetObjectInfo.srv
+   AnalyzePose.srv
  )
 
 ## Generate actions in the 'action' folder

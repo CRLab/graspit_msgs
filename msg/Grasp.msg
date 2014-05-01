@@ -5,11 +5,13 @@ float64[] secondary_qualities
 int32 grasp_source
 int32 grasp_group
 int32 grasp_type
+int32 grasp_id
 geometry_msgs/Pose pre_grasp_pose
 geometry_msgs/Pose final_grasp_pose
 float64[] pre_grasp_dof
 float64[] final_grasp_dof
 #geometry_msgs/Pose demonstration_pose
+
 int32 TYPE_UNKNOWN = 1
 int32 TYPE_FINGERTIP = 2
 int32 TYPE_POWER_GRASP = 3        # free grasp

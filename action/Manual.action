@@ -1,0 +1,7 @@
+#goal definition
+ManualInfo manualinfo
+---
+#result definition
+bool success
+---
+#feedback

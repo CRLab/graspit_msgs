@@ -1,0 +1,8 @@
+#goal definition
+TranslationInfo translationinfo
+---
+#result definition
+bool successfulMove
+---
+#feedback
+

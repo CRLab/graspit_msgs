@@ -46,6 +46,9 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
    GraspStatus.msg
    ObjectInfo.msg
    SceneInfo.msg
+   TranslationInfo.msg
+   RotationInfo.msg
+   ManualInfo.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -61,7 +64,13 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
  add_action_files(
    FILES
    CheckGraspReachability.action
+   GraspExecution.action
+   AfterGrasping.action
    RunObjectRecognition.action
+   Translation.action
+   ToggleGripper.action
+   Rotation.action
+   Manual.action
  )
 
 ## Generate added messages and services with any dependencies listed here

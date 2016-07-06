@@ -1,0 +1,7 @@
+#goal definition
+RotationInfo rotationinfo
+---
+#result definition
+bool success
+---
+#feedback

@@ -1,0 +1,7 @@
+#goal definition
+string action
+---
+#result definition
+bool success
+---
+#feedback

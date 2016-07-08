@@ -41,6 +41,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
 
 ## Generate messages in the 'msg' folder
  add_message_files(
+   DIRECTORY msg
    FILES
    Grasp.msg
    GraspStatus.msg
@@ -53,6 +54,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
 
 ## Generate services in the 'srv' folder
  add_service_files(
+   DIRECTORY srv
    FILES
    GetObjectInfo.srv
    AnalyzePose.srv
@@ -62,6 +64,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
 
 ## Generate actions in the 'action' folder
  add_action_files(
+   DIRECTORY action
    FILES
    CheckGraspReachability.action
    GraspExecution.action
@@ -93,7 +96,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES test
-  CATKIN_DEPENDS message_runtime message_generation
+  CATKIN_DEPENDS message_runtime geometry_msgs std_msgs actionlib
 #  DEPENDS system_lib
 )
 
